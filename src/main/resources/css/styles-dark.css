@@ -1,0 +1,115 @@
+/* dark.css - 暗黑主题（全黑统一，参考你第二张图） */
+
+.root {
+    -fx-base: #1e1e1e;
+    -fx-background: #181818;
+    -fx-accent: #60a5fa;
+    -fx-focus-color: #60a5fa60;
+}
+
+.sidebar {
+    -fx-background-color: #171717;
+}
+
+.sidebar-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+    -fx-padding: 0 0 16 0;
+}
+
+.nav-radio {
+    -fx-padding: 8 12;
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+}
+
+.nav-radio:selected {
+    -fx-background-color: #2a4365;
+    -fx-text-fill: #a5d8ff;
+    -fx-font-weight: bold;
+}
+
+.nav-radio:hover {
+    -fx-background-color: #2d2d2d;
+}
+
+.drop-hint {
+    -fx-font-size: 14px;
+    -fx-text-fill: #a0a0a0;
+}
+
+.table-view {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #2e2e2e;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #282828;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #cccccc;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #d0d0d0;
+}
+
+.table-row-cell {
+    -fx-background-color: #212121;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #1c1c1c;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #1e40af;
+    -fx-text-fill: white;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: #909090;
+}
+
+.bottom-bar {
+    -fx-background-color: #222222;
+    -fx-border-color: #2e2e2e;
+    -fx-border-width: 1 0 0 0;
+}
+
+.action-btn, .primary-btn {
+    -fx-background-color: #2c2c2c;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #3f3f3f;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.action-btn:hover, .primary-btn:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.primary-btn {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-border-color: #2563eb;
+}
+
+.primary-btn:hover {
+    -fx-background-color: #2563eb;
+}
+
+.output-label {
+    -fx-text-fill: #bbbbbb;
+    -fx-font-size: 13px;
+}
+
+.global-progress .track {
+    -fx-background-color: #2e2e2e;
+}
+
+.global-progress .bar {
+    -fx-background-color: #3b82f6;
+}
